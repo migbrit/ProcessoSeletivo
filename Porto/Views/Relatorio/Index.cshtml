@@ -1,0 +1,34 @@
+﻿<h1>Relatorio</h1>
+
+@{
+    var containers = ViewData["Containers"] as IEnumerable<Container>;
+    var movimentacoes = ViewData["Movimentacoes"] as IEnumerable<Movimentacao>;
+}
+
+<table class="table">
+
+    <thead>
+        <tr>
+            <th>
+                Quantidade containers
+            </th>
+
+            <th>
+                Quantidade movimentacoes
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <th>
+                @containers.Count();
+            </th>
+
+            <th>
+                @movimentacoes.Count();
+            </th>
+        </tr>
+
+    </tbody>
+</table>
