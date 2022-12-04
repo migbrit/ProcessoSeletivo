@@ -1,2 +1,2 @@
 # ProcessoSeletivo
-Sistema web CRUD com C#, ASP.NET, Entity Framework e SQL Server
+CRUD web system using C#, ASP.NET, Entity Framework and SQL Server
